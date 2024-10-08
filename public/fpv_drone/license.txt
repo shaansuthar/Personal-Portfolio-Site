@@ -1,0 +1,11 @@
+Model Information:
+* title:	FPV Racing Drone
+* source:	https://sketchfab.com/3d-models/fpv-racing-drone-22f2ba667d6a4b7eaebd05539cb9ffb9
+* author:	jbabs (https://sketchfab.com/jbabs)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "FPV Racing Drone" (https://sketchfab.com/3d-models/fpv-racing-drone-22f2ba667d6a4b7eaebd05539cb9ffb9) by jbabs (https://sketchfab.com/jbabs) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
