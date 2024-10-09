@@ -24,7 +24,8 @@
     "react-vertical-timeline-component": "^3.6.0",
     "sharp": "^0.33.5",
     "three": "^0.168.0",
-    "three-mesh-bvh": "^0.8.2"
+    "three-mesh-bvh": "^0.8.2",
+    "validator": "^13.12.0"
   },
   "devDependencies": {
     "@types/react": "^18.0.27",

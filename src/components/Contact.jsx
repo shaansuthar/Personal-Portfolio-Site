@@ -1,6 +1,7 @@
 import React, { useRef, useState } from "react";
 import { motion } from "framer-motion";
 import emailjs from "@emailjs/browser";
+import validator from "validator";
 
 import { styles } from "../styles";
 import { EarthCanvas } from "./canvas";
@@ -16,6 +17,7 @@ const Contact = () => {
   });
 
   const [loading, setLoading] = useState(false);
+  const [emailError, setEmailError] = useState("");
 
   const handleChange = (e) => {
     const { target } = e;
@@ -25,16 +27,28 @@ const Contact = () => {
       ...form,
       [name]: value,
     });
+
+    // Clear email error if the user starts typing
+    if (name === "email") {
+      setEmailError("");
+    }
   };
 
   const handleSubmit = (e) => {
     e.preventDefault();
     setLoading(true);
 
+    // Check if the email is valid using the validator package
+    if (!validator.isEmail(form.email)) {
+      setLoading(false);
+      setEmailError("Please enter a valid email address.");
+      return;
+    }
+
     emailjs
       .send(
-        import.meta.env.PORTFOLIO_EMAILJS_SERVICE_ID,
-        import.meta.env.PORTFOLIO_EMAILJS_TEMPLATE_ID,
+        process.env.NEXT_PUBLIC_PORTFOLIO_EMAILJS_SERVICE_ID,
+        process.env.NEXT_PUBLIC_PORTFOLIO_EMAILJS_TEMPLATE_ID,
         {
           from_name: form.name,
           to_name: "Shaan Suthar",
@@ -42,7 +56,7 @@ const Contact = () => {
           to_email: "shaan.suthar@icloud.com",
           message: form.message,
         },
-        import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY
+        process.env.NEXT_PUBLIC_PORTFOLIO_EMAILJS_PUBLIC_KEY
       )
       .then(
         () => {
@@ -88,7 +102,7 @@ const Contact = () => {
               value={form.name}
               onChange={handleChange}
               placeholder="What's your name?"
-              className='bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium autocomplete-on'
+              className='bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium'
             />
           </label>
           <label className='flex flex-col'>
@@ -98,9 +112,10 @@ const Contact = () => {
               name='email'
               value={form.email}
               onChange={handleChange}
-              placeholder="What's your email address?"
-              className='bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium autocomplete-on'
+              placeholder="How can I reach you?"
+              className='bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium'
             />
+            {emailError && <span className='text-red-500 mt-2'>{emailError}</span>}
           </label>
           <label className='flex flex-col'>
             <span className='text-white font-medium mb-4'>Your Message</span>
