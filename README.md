@@ -1,6 +1,8 @@
 <div align="center">
-  <h3 align="center">A 3D Developer Portfolio</h3>
+  <h1 align="center">A 3D Portfolio</h3>
 </div>
+
+<img width="1728" alt="Screenshot 2024-10-09 at 7 28 24 PM" src="https://github.com/user-attachments/assets/d7231938-d959-4b2c-aaee-f6926cebd1c1">
 
 ## 📋 <a name="table">Table of Contents</a>
 
@@ -11,11 +13,9 @@
 
 ## <a name="introduction">🤖 Introduction</a>
 
-By developing this project, you will gain hands-on experience in crafting immersive web experiences, mastering 3D libraries, and implementing engaging animations. The combination of creativity and technical skills showcased in this project serves as an excellent learning opportunity for developers seeking to enhance their portfolio and captivate users with cutting-edge web design.
+I decided to redo my portfolio site a year later and this is the result of that. This is my first attempt at using 3D models. Through iterating I realized I needed Server Side Rendering to optimize the performance for all the 3D components having to be rendered, which is how I ended up using Next.js. Ultimately a good learning experience for me and feel free to fork this and use it for your own portfolios!
 
-If you're getting started and need assistance or face any bugs, join our active Discord community with over 27k+ members. It's a place where people help each other out.
-
-<a href="https://discord.com/invite/n6EdbFJ" target="_blank"><img src="https://github.com/sujatagunale/EasyRead/assets/151519281/618f4872-1e10-42da-8213-1d69e486d02e" /></a>
+View the live site [here](https://shaansuthar.com/).
 
 ## <a name="tech-stack">⚙️ Tech Stack</a>
 
