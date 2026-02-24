@@ -1,0 +1,760 @@
+{
+  "sourceBranch": "main",
+  "generatedAt": "2026-02-24T01:53:13.469Z",
+  "structuredContent": {
+    "navLinks": [
+      {
+        "id": "about",
+        "title": "About",
+        "link": "#about"
+      },
+      {
+        "id": "resume",
+        "title": "Resume",
+        "link": "https://docs.google.com/document/d/1iHPtnWTDYZVs9fw9IURX6EoB4Rk4FB6QEh6uqJbSeqA/edit?usp=sharing",
+        "target": "_blank"
+      },
+      {
+        "id": "experience",
+        "title": "Experience",
+        "link": "#experience"
+      },
+      {
+        "id": "leadership",
+        "title": "Leadership",
+        "link": "#leadership"
+      },
+      {
+        "id": "projects",
+        "title": "Projects",
+        "link": "#projects"
+      },
+      {
+        "id": "contact",
+        "title": "Contact",
+        "link": "#contact"
+      }
+    ],
+    "services": [
+      {
+        "title": "Mechatronics Engineer",
+        "iconAlias": "web",
+        "iconPath": "src/assets/web.png"
+      },
+      {
+        "title": "Systems Architect",
+        "iconAlias": "mobile",
+        "iconPath": "src/assets/mobile.png"
+      },
+      {
+        "title": "Backend Developer",
+        "iconAlias": "backend",
+        "iconPath": "src/assets/backend.png"
+      },
+      {
+        "title": "Leader, Collaborator, & Mentor",
+        "iconAlias": "creator",
+        "iconPath": "src/assets/creator.png"
+      }
+    ],
+    "technologies": [
+      {
+        "name": "Golang",
+        "iconAlias": "golang",
+        "iconPath": "src/assets/tech/golang.png"
+      },
+      {
+        "name": "Ruby",
+        "iconAlias": "ruby",
+        "iconPath": "src/assets/tech/ruby.png"
+      },
+      {
+        "name": "Rails",
+        "iconAlias": "rails",
+        "iconPath": "src/assets/tech/rails.png"
+      },
+      {
+        "name": "Python",
+        "iconAlias": "python",
+        "iconPath": "src/assets/tech/python.png"
+      },
+      {
+        "name": "C++",
+        "iconAlias": "cpp",
+        "iconPath": "src/assets/tech/cpp.png"
+      },
+      {
+        "name": "C#",
+        "iconAlias": "csharp",
+        "iconPath": "src/assets/tech/csharp.png"
+      },
+      {
+        "name": "MySQL",
+        "iconAlias": "mysql",
+        "iconPath": "src/assets/tech/mysql.png"
+      },
+      {
+        "name": "PostgreSQL",
+        "iconAlias": "postgresql",
+        "iconPath": "src/assets/tech/postgresql.png"
+      },
+      {
+        "name": "Verilog",
+        "iconAlias": "verilog",
+        "iconPath": "src/assets/tech/verilog.png"
+      },
+      {
+        "name": "Azure",
+        "iconAlias": "azure",
+        "iconPath": "src/assets/tech/azure.png"
+      },
+      {
+        "name": "Solidworks",
+        "iconAlias": "solidworks",
+        "iconPath": "src/assets/tech/solidworks.png"
+      },
+      {
+        "name": "LTspice",
+        "iconAlias": "ltspice",
+        "iconPath": "src/assets/tech/ltspice.png"
+      }
+    ],
+    "experiences": [
+      {
+        "title": "Software Engineer Intern",
+        "company_name": "Shopify",
+        "location": "Toronto, ON, Canada",
+        "iconAlias": "shopify",
+        "iconPath": "src/assets/company/shopify.png",
+        "iconBg": "#383E56",
+        "date": "May 2024 - Aug 2024",
+        "points": [
+          "Led webhook changes for a project enabling all Shopify merchants to refund specific shipping lines, improving flexibility for split-cart refunds through API and database modifications",
+          "Refactored shared serializers to decouple REST and webhook logic, ensuring future-proofing as Shopify transitioned away from REST in favor of GraphQL, while maintaining backward compatibility",
+          "Implemented support for accessing beta-flagged values, so developers can safely access and test values protected by API versioning",
+          "Presented findings regularly on code optimization to a team of 50+ engineers, introducing a shared serializer structure that reduced repetitive code across multiple systems and improved long-term maintainability"
+        ]
+      },
+      {
+        "title": "Software Engineer Intern",
+        "company_name": "Microsoft",
+        "location": "Redmond, WA, USA",
+        "iconAlias": "microsoft",
+        "iconPath": "src/assets/company/microsoft.png",
+        "iconBg": "#E6DEDD",
+        "date": "May 2023 - Aug 2023",
+        "points": [
+          "Architected and deployed a diagnostic tool to automate the analysis of missing URLs in Bing’s 400 billion-document search index, eliminating the need for manual weekly reviews by the team",
+          "Designed and implemented a distributed log-parsing system that transformed binary logs into a consolidated format, enabling real-time monitoring and reducing manual processing time from hours to seconds",
+          "Developed an API to integrate the tool with an internal web portal, enabling non-technical teams to access URL history and troubleshoot without relying on engineering support, streamlining cross-team collaboration",
+          "Created a custom indexing system that enhanced memory utilization and significantly improved log search performance, reducing query times and operational overhead across Bing’s distributed infrastructure"
+        ]
+      },
+      {
+        "title": "Explore Intern (SWE/PM)",
+        "company_name": "Microsoft",
+        "location": "Toronto, ON, Canada",
+        "iconAlias": "microsoft",
+        "iconPath": "src/assets/company/microsoft.png",
+        "iconBg": "#383E56",
+        "date": "May 2022 - Aug 2022",
+        "points": [
+          "Redesigned internal wiki for a big data analytics platform to reduce developer support requests, improving user self-service with a more intuitive UI and chatbot integration",
+          "Led the product management for the wiki during the release phase, which included gathering user feedback and collaborating with stakeholders to prioritize features that addressed key pain points",
+          "Developed the wiki using Docusaurus, integrating Azure AD authentication, personalized content, and custom search functionality to streamline the user experience",
+          "Built a CI/CD pipeline using Azure DevOps for smooth deployment and iterative improvements based on feedback"
+        ]
+      },
+      {
+        "title": "Stock and Options Trader",
+        "company_name": "Self-Employed",
+        "location": "Toronto, ON, Canada",
+        "iconAlias": "trading",
+        "iconPath": "src/assets/company/trading.png",
+        "iconBg": "#E6DEDD",
+        "date": "Jun 2020 - Aug 2021",
+        "points": [
+          "Grew portfolio by 50% by analyzing trends and price action of stocks in the NYSE, NASDAQ, Russell 2000s, and Dow Jones",
+          "Bought and sold puts, calls, and spreads to generate profit while managing risk and following strategies learned in courses",
+          "Coded indicators in Thinkscript for ThinkOrSwim and Pine Script for TradingView to identify when specific strategies occurred and automated sending a signal for it in each trading platform"
+        ]
+      }
+    ],
+    "leadership": [
+      {
+        "title": "Software Simulation Team Lead",
+        "team_name": "MAC Formula Electric",
+        "iconAlias": "macfe",
+        "iconPath": "src/assets/leadership/icons/macfe.png",
+        "iconBg": "#383E56",
+        "date": "Sep 2024 - Present",
+        "points": [
+          "Leading the design and development of a full car simulator, combining mechanical and software knowledge to enable data-driven decision-making and resource allocation for the race car team",
+          "Developing a simulator to help drivers familiarize with the track prior to competition and optimize car performance"
+        ]
+      },
+      {
+        "title": "Suspension & Steering Team Lead",
+        "team_name": "MAC Formula Electric",
+        "iconAlias": "macfe",
+        "iconPath": "src/assets/leadership/icons/macfe.png",
+        "iconBg": "#E6DEDD",
+        "date": "Jun 2023 - Aug 2024",
+        "points": [
+          "Led a team of 15 to design and manufacture the suspension and steering system for a 1/4 scale electric F1-style race car",
+          "Collaborated with sub-teams to optimize the system for performance and manufacturability, ensuring seamless integration with other components"
+        ],
+        "imageAlias": "fsae2024",
+        "imagePath": "src/assets/leadership/images/fsae2024.jpg"
+      },
+      {
+        "title": "Student Ambassador",
+        "team_name": "Microsoft Learn",
+        "iconAlias": "mlsa",
+        "iconPath": "src/assets/leadership/icons/mlsa.png",
+        "iconBg": "#E6DEDD",
+        "date": "Oct 2022 - Aug 2024",
+        "points": [
+          "Organized and led an event for 40 high school students, teaching them to create and host websites using GitHub tools",
+          "Mentored students on coding and deployment, fostering their technical growth in web development"
+        ],
+        "imageAlias": "mlsaevent",
+        "imagePath": "src/assets/leadership/images/mlsa_event.jpg"
+      },
+      {
+        "title": "Suspension & Steering Sub-Team Member",
+        "team_name": "MAC Formula Electric",
+        "iconAlias": "macfe",
+        "iconPath": "src/assets/leadership/icons/macfe.png",
+        "iconBg": "#383E56",
+        "date": "Jun 2022 - Jun 2023",
+        "points": [
+          "Collaborated with others to calculate ideal spring rate and travel for the suspension system using Excel",
+          "Optimized four-bar suspension arm dimensions using MatLab and validated design through FEA simulations in Solidworks"
+        ],
+        "imageAlias": "fsae2023",
+        "imagePath": "src/assets/leadership/images/fsae2023.jpg"
+      },
+      {
+        "title": "Panelist",
+        "team_name": "McMaster Leadership Development Conference & J. Clarke Richardson Collegiate CS Panel",
+        "iconAlias": "ldc",
+        "iconPath": "src/assets/leadership/icons/ldc.png",
+        "iconBg": "#000022",
+        "date": "Various Dates",
+        "points": [
+          "Shared insights on leadership and my coop journey, discussing challenges, strategies, and key takeaways from my experiences at Microsoft",
+          "Engaged in discussions about technical leadership, career development, and navigating early career opportunities"
+        ],
+        "imageAlias": "panelist",
+        "imagePath": "src/assets/leadership/images/panelist.jpg"
+      },
+      {
+        "title": "Chassis & Ergonomics Sub-Team Member",
+        "team_name": "MAC Formula Electric",
+        "iconAlias": "macfe",
+        "iconPath": "src/assets/leadership/icons/macfe.png",
+        "iconBg": "#383E56",
+        "date": "Oct 2021 - Jun 2022",
+        "points": [
+          "Manufactured carbon fiber panels and monocoque for a 1/4 scale electric formula-style race car",
+          "Created CAD parts for the chassis, seat, and steering wheel, and collaborated with other sub-teams to integrate their components into the final product"
+        ],
+        "imageAlias": "fsae2022",
+        "imagePath": "src/assets/leadership/images/fsae2022.jpg"
+      },
+      {
+        "title": "Team Founder & Captain",
+        "team_name": "Sumobot Competition - Ontario Tech University",
+        "iconAlias": "sumobots",
+        "iconPath": "src/assets/leadership/icons/sumobots.jpeg",
+        "iconBg": "#FFFFFF",
+        "date": "Jan 2020",
+        "points": [
+          "Founded and led the inaugural team to compete in a sumobot competition, earning the 'Best New Entry' award for innovative gyro sensor integration",
+          "Directed team strategy, robot design, and sensor programming to achieve optimal performance in competition"
+        ],
+        "imageAlias": "sumobotsevent",
+        "imagePath": "src/assets/leadership/images/sumobots_event.jpg"
+      },
+      {
+        "title": "Co-Captain & Head Driver",
+        "team_name": "FIRST Robotics Team 6110",
+        "iconAlias": "docbotics",
+        "iconPath": "src/assets/leadership/icons/docbotics.jpg",
+        "iconBg": "#FFFFFF",
+        "date": "Jan 2020 - Jun 2021",
+        "points": [
+          "Guided a team of 40 members, managing team dynamics and project execution after transferring due to funding cuts",
+          "Led both mechanical and electrical subsystems, ensuring seamless robot performance in competition"
+        ],
+        "imageAlias": "frc6110",
+        "imagePath": "src/assets/leadership/images/frc6110.jpg"
+      },
+      {
+        "title": "Head Driver & Mechanical/Electrical Lead",
+        "team_name": "FIRST Robotics Team 5076",
+        "iconAlias": "stormbots",
+        "iconPath": "src/assets/leadership/icons/stormbots.jpg",
+        "iconBg": "#000000",
+        "date": "Jan 2019 - Jun 2020",
+        "points": [
+          "Developed leadership and technical skills by managing the mechanical and electrical components of the robot",
+          "Mentored younger students, providing guidance on both technical and leadership development"
+        ],
+        "imageAlias": "frc5076",
+        "imagePath": "src/assets/leadership/images/frc5076.png"
+      }
+    ],
+    "skills": [
+      {
+        "category": "Frontend Development",
+        "skillsList": [
+          "React",
+          "React Native",
+          "JavaScript",
+          "HTML",
+          "CSS",
+          "Docusaurus"
+        ]
+      },
+      {
+        "category": "Backend Development",
+        "skillsList": [
+          "Go",
+          "Node.js",
+          "GraphQL",
+          "REST",
+          "PostgreSQL",
+          "MySQL"
+        ]
+      },
+      {
+        "category": "Embedded Systems & IoT",
+        "skillsList": [
+          "Arduino",
+          "STM32",
+          "C/C++",
+          "PID Control",
+          "Embedded C"
+        ]
+      },
+      {
+        "category": "AI & Machine Learning",
+        "skillsList": [
+          "Python",
+          "TensorFlow",
+          "OpenCV",
+          "PySerial",
+          "ML Algorithms"
+        ]
+      },
+      {
+        "category": "DevOps & Cloud",
+        "skillsList": [
+          "Docker",
+          "Kubernetes",
+          "AWS",
+          "GCP",
+          "CI/CD",
+          "GitHub Actions"
+        ]
+      },
+      {
+        "category": "Tools & Platforms",
+        "skillsList": [
+          "Git",
+          "SolidWorks",
+          "Fusion 360",
+          "Matlab",
+          "Simulink"
+        ]
+      }
+    ],
+    "projects": [
+      {
+        "name": "Analog Neural Network (WIP)",
+        "description": "Capstone project building a configurable neural network that uses analog signal processing for all computations to reduce energy consumption and computation time.",
+        "tags": [
+          {
+            "name": "circuitdesign",
+            "color": "blue-text-gradient"
+          },
+          {
+            "name": "ml",
+            "color": "green-text-gradient"
+          },
+          {
+            "name": "pcb",
+            "color": "pink-text-gradient"
+          },
+          {
+            "name": "capstone",
+            "color": "orange-text-gradient"
+          }
+        ],
+        "imageAlias": "analogneuralnet",
+        "imagePath": "src/assets/projects/analogneuralnet.jpeg",
+        "source_code_link": "https://github.com/analog-neural-net"
+      },
+      {
+        "name": "Spincard (WIP)",
+        "description": "Serverless microservice-based banking platform for groups to easily pool and spend money together using Go.",
+        "tags": [
+          {
+            "name": "go",
+            "color": "blue-text-gradient"
+          },
+          {
+            "name": "microservices",
+            "color": "green-text-gradient"
+          },
+          {
+            "name": "encore",
+            "color": "pink-text-gradient"
+          },
+          {
+            "name": "graphql",
+            "color": "orange-text-gradient"
+          }
+        ],
+        "imageAlias": "spincard",
+        "imagePath": "src/assets/projects/spincard.png",
+        "source_code_link": "https://github.com/spin-card/"
+      },
+      {
+        "name": "Full Car Simulator for MAC Formula Electric (WIP)",
+        "description": "Building a modular full car driver-in-the-loop and software-in-the-loop simulator for a 1/4 scale electric F1-style race car (FSAE competition).",
+        "tags": [
+          {
+            "name": "ros2",
+            "color": "blue-text-gradient"
+          },
+          {
+            "name": "go",
+            "color": "green-text-gradient"
+          },
+          {
+            "name": "c/c++",
+            "color": "pink-text-gradient"
+          },
+          {
+            "name": "unity",
+            "color": "orange-text-gradient"
+          }
+        ],
+        "imageAlias": "macfesim",
+        "imagePath": "src/assets/projects/macfesim.png",
+        "source_code_link": "https://github.com/macformula/simulator"
+      },
+      {
+        "name": "Suspension & Steering System for MAC Formula Electric",
+        "description": "Designed, built, and validated a custom suspension and steering system for a 1/4 scale electric F1-style race car (FSAE competition).",
+        "tags": [
+          {
+            "name": "mechanical",
+            "color": "blue-text-gradient"
+          },
+          {
+            "name": "solidworks",
+            "color": "green-text-gradient"
+          },
+          {
+            "name": "fea",
+            "color": "pink-text-gradient"
+          },
+          {
+            "name": "projectmanagement",
+            "color": "orange-text-gradient"
+          }
+        ],
+        "imageAlias": "suspension",
+        "imagePath": "src/assets/projects/suspension.png",
+        "project_link": "https://drive.google.com/file/d/1pbQk1McYBHq2bjd8SI_qow9tguKWZtmW/view?usp=sharing"
+      },
+      {
+        "name": "LaaS (Locker as a Service)",
+        "description": "A temperature-controlled locker service allowing merchants to sell goods contactless, winning 3rd place at Deltahacks X.",
+        "tags": [
+          {
+            "name": "iot",
+            "color": "blue-text-gradient"
+          },
+          {
+            "name": "flutter",
+            "color": "green-text-gradient"
+          },
+          {
+            "name": "raspberrypi",
+            "color": "pink-text-gradient"
+          },
+          {
+            "name": "hackathonwinner",
+            "color": "orange-text-gradient"
+          }
+        ],
+        "imageAlias": "laas",
+        "imagePath": "src/assets/projects/laas.jpg",
+        "project_link": "https://devpost.com/software/laas"
+      },
+      {
+        "name": "Pace++",
+        "description": "Created a Software-in-the-Loop and Hardware-in-the-Loop pacemaker to visually and functionally represent modern pacemakers.",
+        "tags": [
+          {
+            "name": "i2c",
+            "color": "blue-text-gradient"
+          },
+          {
+            "name": "hil",
+            "color": "green-text-gradient"
+          },
+          {
+            "name": "python",
+            "color": "pink-text-gradient"
+          },
+          {
+            "name": "simulink",
+            "color": "orange-text-gradient"
+          }
+        ],
+        "imageAlias": "pacemaker",
+        "imagePath": "src/assets/projects/pacemaker.jpg",
+        "source_code_link": "https://github.com/PacePlusPlus/PacePlusPlus"
+      },
+      {
+        "name": "AR.cade",
+        "description": "An arcade game library controlled by body movements tracked via webcam using OpenCV and ML, enabling gesture-based gameplay.",
+        "tags": [
+          {
+            "name": "opencv",
+            "color": "blue-text-gradient"
+          },
+          {
+            "name": "ml",
+            "color": "green-text-gradient"
+          },
+          {
+            "name": "python",
+            "color": "pink-text-gradient"
+          },
+          {
+            "name": "hackathonwinner",
+            "color": "orange-text-gradient"
+          }
+        ],
+        "imageAlias": "arcade",
+        "imagePath": "src/assets/projects/arcade.png",
+        "project_link": "https://devpost.com/software/ar-cade"
+      },
+      {
+        "name": "Happy Recyclemore",
+        "description": "A smart recycling lid that classifies and sorts items based on material using a Tensorflow model and OpenCV.",
+        "tags": [
+          {
+            "name": "tensorflow",
+            "color": "blue-text-gradient"
+          },
+          {
+            "name": "opencv",
+            "color": "green-text-gradient"
+          },
+          {
+            "name": "hardware",
+            "color": "pink-text-gradient"
+          },
+          {
+            "name": "hackathonwinner",
+            "color": "orange-text-gradient"
+          }
+        ],
+        "imageAlias": "happyrecyclemore",
+        "imagePath": "src/assets/projects/happyrecyclemore.png",
+        "project_link": "https://devpost.com/software/happy-recyclemore"
+      },
+      {
+        "name": "FoodSnaps",
+        "description": "A mobile app using React Native that provides recipe recommendations based on pictures of ingredients.",
+        "tags": [
+          {
+            "name": "reactnative",
+            "color": "blue-text-gradient"
+          },
+          {
+            "name": "spoonacular",
+            "color": "green-text-gradient"
+          },
+          {
+            "name": "expo",
+            "color": "pink-text-gradient"
+          },
+          {
+            "name": "hackathon",
+            "color": "orange-text-gradient"
+          }
+        ],
+        "imageAlias": "foodsnaps",
+        "imagePath": "src/assets/projects/foodsnaps.png",
+        "project_link": "https://devpost.com/software/foodsnaps"
+      },
+      {
+        "name": "EYEs.py",
+        "description": "An eye-tracking system that records focus points on a webpage or advertisement using Adhawk's Mindlink glasses.",
+        "tags": [
+          {
+            "name": "eyetracking",
+            "color": "blue-text-gradient"
+          },
+          {
+            "name": "python",
+            "color": "green-text-gradient"
+          },
+          {
+            "name": "matplotlib",
+            "color": "pink-text-gradient"
+          },
+          {
+            "name": "hackathon",
+            "color": "orange-text-gradient"
+          }
+        ],
+        "imageAlias": "eyespy",
+        "imagePath": "src/assets/projects/eyespy.png",
+        "project_link": "https://devpost.com/software/eyes-py"
+      },
+      {
+        "name": "3D Printed Arduino Quadcopter",
+        "description": "Designed and built a custom quadcopter with 3D-printed frame, using Arduino microcontrollers for flight control and IMU sensor tuning.",
+        "tags": [
+          {
+            "name": "arduino",
+            "color": "blue-text-gradient"
+          },
+          {
+            "name": "3dprinting",
+            "color": "green-text-gradient"
+          },
+          {
+            "name": "pidcontrol",
+            "color": "pink-text-gradient"
+          }
+        ],
+        "imageAlias": "quadcopter",
+        "imagePath": "src/assets/projects/quadcopter.png",
+        "project_link": "https://drive.google.com/file/d/1-GiYaabQrA09tqiAAeo9hTZEQMCLHcFP/view?usp=sharing"
+      },
+      {
+        "name": "Scorbot ER-III Robotic Arm Restoration",
+        "description": "Restored a $20,000 robotic arm from the 1990s to working condition and figured out how to use it with modern computers.",
+        "tags": [
+          {
+            "name": "robotics",
+            "color": "blue-text-gradient"
+          },
+          {
+            "name": "documentation",
+            "color": "green-text-gradient"
+          },
+          {
+            "name": "debugging",
+            "color": "pink-text-gradient"
+          },
+          {
+            "name": "diagnostics",
+            "color": "orange-text-gradient"
+          }
+        ],
+        "imageAlias": "scorbot",
+        "imagePath": "src/assets/projects/scorbot.png",
+        "project_link": "https://drive.google.com/file/d/1dG9DYNn99fANQIbrrpWIgA24rOs6lcqz/view?usp=sharing"
+      }
+    ]
+  },
+  "uiCopy": {
+    "hero": {
+      "heading": "Hi, I'm Shaan",
+      "highlightedName": "Shaan",
+      "subheading": "If it needs building, I'll figure it out",
+      "backgroundImagePath": "/assets/bg4.png",
+      "scrollTarget": "#about"
+    },
+    "about": {
+      "sectionLabel": "Introduction",
+      "sectionTitle": "Overview.",
+      "overviewText": "Hi! I'm a mechatronics engineer, which is just a fancy way of saying I like to build stuff—mechanical, electrical, software—you name it. With years of experience in all three domains, I thrive on thinking both big picture and diving deep into the details. Whether it's designing a drone, optimizing code for distributed systems, or crafting smart tech, I love solving problems from every angle. Plus, I'm all about collaboration—leading teams and working closely with others to bring ideas to life. If you need someone who can connect the dots across multiple domains—let's make it happen!"
+    },
+    "experience": {
+      "sectionLabel": "It's not a job, it's an adventure",
+      "sectionTitle": "Work Experience."
+    },
+    "leadership": {
+      "sectionLabel": "Teamwork makes the dream work",
+      "sectionTitle": "Leadership."
+    },
+    "projects": {
+      "sectionLabel": "Think it. Build it. Break it. Fix it.",
+      "sectionTitle": "Projects.",
+      "introText": "Following projects showcases my skills and experience through real-world examples of my work. Each project is briefly described with links to code repositories and live demos in it. It reflects my ability to solve complex problems, work with different technologies, and manage projects effectively."
+    },
+    "skills": {
+      "sectionLabel": "Never stop learning",
+      "sectionTitle": "Skills."
+    },
+    "contact": {
+      "sectionLabel": "Get in touch",
+      "sectionTitle": "Contact.",
+      "formLabels": [
+        "Your Name",
+        "Your email",
+        "Your Message"
+      ],
+      "placeholders": {
+        "name": "What's your name?",
+        "email": "How can I reach you?",
+        "message": "What you want to say?"
+      },
+      "validationMessageInvalidEmail": "Please enter a valid email address.",
+      "submitButtonIdle": "Send",
+      "submitButtonLoading": "Sending...",
+      "successAlert": "Thanks for reaching out! I will get back to you as soon as possible!",
+      "errorAlert": "Ahh, something went wrong. Please try again.",
+      "emailDestination": {
+        "toName": "Shaan Suthar",
+        "toEmail": "shaan.suthar@icloud.com"
+      },
+      "emailJsEnvVars": [
+        "NEXT_PUBLIC_PORTFOLIO_EMAILJS_SERVICE_ID",
+        "NEXT_PUBLIC_PORTFOLIO_EMAILJS_TEMPLATE_ID",
+        "NEXT_PUBLIC_PORTFOLIO_EMAILJS_PUBLIC_KEY"
+      ]
+    },
+    "navbar": {
+      "brandText": "Shaan Suthar",
+      "socialLinks": {
+        "github": "https://github.com/shaansuthar",
+        "linkedin": "https://linkedin.com/in/shaan-suthar"
+      }
+    },
+    "pageComposition": {
+      "page": "pages/index.js",
+      "sectionOrder": [
+        "hero",
+        "about",
+        "experience",
+        "tech",
+        "leadership",
+        "projects",
+        "contact"
+      ],
+      "lazyLoadedCanvases": [
+        "StarsCanvas"
+      ],
+      "backgroundGradient": "linear-gradient(to right, #566263, #677163, #9a9a7f, #aa8667, #c57b56, #c77663)"
+    },
+    "metadata": {
+      "htmlLang": "en",
+      "faviconPath": "/assets/favicon.ico",
+      "microsoftClarityId": "obx3dn8fdc"
+    }
+  }
+}
